@@ -91,7 +91,6 @@ class UserForm extends Component {
             style={{
               width: "100px",
               color: "white",
-              borderRadius: "5px",
               marginLeft: "50px",
               height: "30px",
               backgroundColor: "blue",
