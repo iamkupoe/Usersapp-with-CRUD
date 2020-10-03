@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
-import  { addUser } from './store/usersActions';
+import  { addUser, getAllUsers } from './store/usersActions';
 import { deleteUser } from './store/usersActions';
 import UserDetails from "./components/UserDetails";
 import UserForm from './components/UserForm';
@@ -17,6 +17,10 @@ export class App extends Component {
     this.props.deleteUser(user_id);
   }
 
+  componentDidMount(){
+     this.props.getAllUsers();
+  }
+   
   render() {
     return (
       <div className="App" >
@@ -52,8 +56,9 @@ export class App extends Component {
   });
 
   const mapDispatchToProps = {
-    addUser: addUser,
-    deleteUser: deleteUser
+    addUser,
+    deleteUser,
+    getAllUsers
   }
 
 
