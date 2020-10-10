@@ -34,11 +34,7 @@ export const editUser = (user_id, updated_info) => {
 
       })
     };
-    //{
-      //  type: 'EDIT_USER',
-      //  user_id: user_id,
-      //  updated_info: updated_info
-  //  }
+   
 }
 
 export const getAllUsers = () => {

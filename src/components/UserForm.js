@@ -89,17 +89,16 @@ class UserForm extends Component {
           <button
             type="SUBMIT"
             style={{
-              width: "100px",
+              width: "5rem",
               color: "white",
-              marginLeft: "50px",
-              height: "30px",
+              marginLeft: "5rem",
+              marginTop: "-3rem",
               backgroundColor: "blue",
-              fontSize: "18px",
-              borderRadius: "2rem",
+              borderRadius: "1rem",
             }}
           >
             Add User
-          </button>
+          </button> 
         </form>
       </div>
     );

@@ -105,7 +105,7 @@ export class EditForm extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => ({
-  user: state.users.find((user) => user.id === ownProps.match.params.id),
+  user: state.usersState.users.find((user) => user.id === ownProps.match.params.id),
 });
 
 const mapDispatchToProps = {

@@ -10,3 +10,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Register Form*/
+
+#register-form {
+  color: blue;
+  margin-left: 20%;
+  margin-top: 2rem;
+}
+
+.form-submit {
+  background-color: aqua;
+  width: 29rem;
+  height: 20rem;
+  box-shadow: 5px 10px #888888;
+  border-radius: 1rem;
+  margin-left: 4%;
+  padding-top: 1rem;
+}
+
+.label-form {
+  display: inline-block;
+  width: 5rem;
+  text-align: left;
+  color: blue;
+  margin-left: 1rem;
+}
+
+#input-form {
+background-color: lightgray;
+display: inline-block;
+width: 20rem;
+text-align: center;
+color: red;
+border: 1px solid gray;
+border-radius: 1rem;
+}
+
+#horizontal {
+  width: 28rem;
+  margin-left: 0.5rem;
+}
+
+#button-reg {
+  background-color: rgb(152, 166, 204);
+  width: 5rem;
+  margin-left: 13rem;
+  border-radius: 0.5rem;
+  color: rgb(255, 72, 0);
+}
+
+#horizontal-google {
+  margin-top: 1rem;
+}
+
+#google-but {
+  margin-left: 13rem;
+  margin-top: 0.5rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+}
+
+#google-submit {
+  width: 5rem;
+
+}
+
+/*Login Form*/
+
+#login {
+  color: blue;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.login-form {
+  background-color: rgb(47, 224, 136);
+  width: 29rem;
+  height: 20rem;
+  box-shadow: 5px 10px #888888;
+  border-radius: 1rem;
+  margin-left: 4%;
+  padding-top: 1rem;
+}
+
+#label-login {
+  display: inline-block;
+  width: 5rem;
+  text-align: left;
+  color: blue;
+  margin-left: 1rem;
+}
+
+#input-login {
+background-color: lightgray;
+display: inline-block;
+width: 20rem;
+text-align: center;
+color: red;
+border: 1px solid gray;
+border-radius: 1rem;
+}
+
+#button-login {
+  background-color: rgb(248, 249, 252);
+  width: 5rem;
+  margin-left: 13rem;
+  border-radius: 0.5rem;
+  color: rgb(0, 140, 255);
+}
+
+#horizontal-google {
+  margin-top: 1rem;
+  width: 28rem;
+  margin-left: 00.5rem;
+}
+
+.button-google {
+  width: 5rem;
+  margin-left: 13rem;
+  margin-top: 0.5rem;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+
+}
