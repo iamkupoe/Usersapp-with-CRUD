@@ -30,7 +30,7 @@ export class App extends Component {
           {/* Form to add new user */}
           
         <UserForm addUser = {this.addNewUser} />
-        <button style={{width:"5rem", color:"white", marginLeft:'1rem', backgroundColor:'blue', borderRadius:'1rem'}} onClick={this.props.logOutUser}>Logout</button>
+        <button style={{width:"5rem", color:"white", marginLeft:'7.5rem', backgroundColor:'blue', borderRadius:'1rem'}} onClick={this.props.logOutUser}>Logout</button>
       </div>
         
 

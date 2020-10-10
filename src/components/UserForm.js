@@ -50,19 +50,20 @@ class UserForm extends Component {
             borderRadius: "2rem",
           }}
         >
-          <label htmlFor="" style={{ fontSize: "18px" }}>
+          <label htmlFor=""  className="label-html" style={{ fontSize: "18px", display: 'inlineBlock', textAlign:'left' }}>
             Name:
           </label>
           <input
             type="text"
             name="name"
+            className="input-html"
             placeholder=""
             value={this.state.name}
             onChange={this.handleChange}
-            style={{ width: "200px", height: "30px", borderRadius: "4px" }}
+            style={{ width: "200px", height: "30px", borderRadius: "4px", display: 'inlineBlock'}}
           />
           <br />
-          <label htmlFor="" style={{ fontSize: "18px" }}>
+          <label htmlFor="" className="label-html" style={{ fontSize: "18px", display: 'inlineBlock' }}>
             Number:
           </label>
           <input
@@ -71,19 +72,20 @@ class UserForm extends Component {
             placeholder=""
             value={this.state.number}
             onChange={this.handleChange}
-            style={{ width: "200px", height: "30px", borderRadius: "4px" }}
+            style={{ width: "200px", height: "30px", borderRadius: "4px", display: 'inlineBlock' }}
           />
           <br />
-          <label htmlFor="" style={{ fontSize: "18px" }}>
+          <label htmlFor="" style={{ fontSize: "18px", display: 'inlineBlock' }}>
             Email:
           </label>
           <input
             type="email"
             name="email"
+            className="input-html"
             placeholder=""
             value={this.state.email}
             onChange={this.handleChange}
-            style={{ width: "200px", height: "30px", borderRadius: "4px" }}
+            style={{ width: "200px", height: "30px", borderRadius: "4px", display: 'inlineBlock' }}
           />
           <br />
           <button
@@ -99,6 +101,7 @@ class UserForm extends Component {
           >
             Add User
           </button> 
+          <hr style={{marginRight:'2rem'}} />
         </form>
       </div>
     );
